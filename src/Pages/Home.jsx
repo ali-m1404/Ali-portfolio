@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import { useEffect } from "react";
-import { ArrowRightIcon,  EnvelopeIcon ,StarIcon ,CodeBracketIcon } from '@heroicons/react/24/solid';
+import { ArrowDownIcon,  EnvelopeIcon ,StarIcon ,CodeBracketIcon } from '@heroicons/react/24/solid';
 
 function Home() {
   useEffect(() => {
@@ -44,18 +44,18 @@ function Home() {
                 </div>
                 
                 {/* Stats - با رنگ‌های متفاوت برای مودها */}
-                <div className="flex flex-wrap gap-6 justify-center md:justify-start mb-8">
+                <div className="flex flex-wrap gap-1.5 justify-center md:justify-start mb-8">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-gray-800 dark:text-white">10H</div>
-                    <div className="text-sm text-gray-500 dark:text-white/60">Tailwindcss learning</div>
+                    <div className="text-md font-bold text-gray-800 dark:text-white">Tailwind CSS</div>
+                    <div className="text-sm text-gray-500 dark:text-white/60 border-l-2 px-0.5">30 hours hands-on practice</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-gray-800 dark:text-white">50H</div>
-                    <div className="text-sm text-gray-500 dark:text-white/60">React learning </div>
+                    <div className="text-md font-bold text-gray-800 dark:text-white">React</div>
+                    <div className="text-sm text-gray-500 dark:text-white/60 border-l-2 px-0.5"> 90 hours projects & exercises </div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-gray-800 dark:text-white">60H</div>
-                    <div className="text-sm text-gray-500 dark:text-white/60">ASP.NET learning</div>
+                    <div className="text-md font-bold text-gray-800 dark:text-white">ASP.NET Core</div>
+                    <div className="text-sm text-gray-500 dark:text-white/60 border-l-2 px-0.5">240 hours learning & mini projects</div>
                   </div>
                 </div>
                 
@@ -63,8 +63,8 @@ function Home() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                   <button className="group relative px-8 py-4 bg-gradient-to-r from-yellow-500 to-teal-500 dark:from-yellow-400 dark:to-teal-500 text-black rounded-lg font-semibold text-md overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 active:scale-95">
                     <span className="relative  flex items-center gap-2">
-                      LEARN MORE
-                      <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
+                      DOWLOD CV
+                      <ArrowDownIcon className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                     </span>
                     <div className="absolute inset-0 bg-white/20 dark:bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   </button>

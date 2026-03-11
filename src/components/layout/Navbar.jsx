@@ -31,7 +31,7 @@ function Navbar() {
     rounded-t-3xl space-x-2.5 z-50">
        
             {/* Logo with gradient */}
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-teal-600 to-sky-600 bg-clip-text text-transparent ">
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-teal-600 to-sky-600 bg-clip-text text-transparent dark:text-white ">
                 Ali.dev
             </h1>
 
